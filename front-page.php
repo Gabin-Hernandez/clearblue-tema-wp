@@ -26,11 +26,12 @@ get_header();
 </section>
 
 <!-- Sección Nuestras Soluciones -->
-<section class="py-20 bg-gray-50 overflow-visible">
+<section class="py-20 bg-gray-50 relative overflow-hidden">
     <div class="container mx-auto px-6">
-        <div class="relative flex items-center justify-center min-h-[600px] md:min-h-[500px]">
-            <!-- Card azul a la izquierda saliendo - DETRÁS -->
-            <div class="absolute left-0 top-1/2 -translate-y-1/2 z-10 w-full max-w-xs md:max-w-md">
+        <div class="relative flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12">
+            
+            <!-- Card azul a la izquierda -->
+            <div class="w-full md:w-auto md:max-w-md z-10">
                 <div class="bg-gradient-to-br from-blue-500 via-indigo-600 to-blue-700 rounded-3xl p-8 md:p-10 shadow-2xl">
                     <h3 class="text-2xl md:text-3xl lg:text-4xl font-bold text-black mb-3 md:mb-4 leading-tight">
                         Nuestras Soluciones
@@ -41,75 +42,31 @@ get_header();
                 </div>
             </div>
             
-            <!-- Contenedor principal con el círculo y las cards -->
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center w-full max-w-6xl ml-auto">
-                <!-- Lado izquierdo - Gráfico circular de 4 EJES - AL FRENTE -->
-                <div class="relative flex justify-center md:justify-end items-center min-h-[400px] md:min-h-[450px] z-30">
-                    <div class="relative">
-                        <!-- Círculo principal con sombra elevada - TAMAÑO REDUCIDO -->
-                        <div class="relative w-64 h-64 md:w-72 md:h-72 bg-white rounded-full shadow-2xl flex items-center justify-center border-4 border-gray-900 transform hover:rotate-6 transition-transform duration-500">
-                            <div class="text-center">
-                                <div class="text-xs md:text-sm text-gray-600 mb-1 md:mb-2">Prueba nuestros</div>
-                                <div class="text-3xl md:text-4xl font-black text-gray-900">4 EJES</div>
-                            </div>
-                        </div>
-                        
-                        <!-- Etiquetas alrededor del círculo con líneas -->
-                        <!-- E - Arriba -->
-                        <div class="absolute -top-2 md:top-2 left-1/2 -translate-x-1/2">
-                            <div class="flex flex-col items-center">
-                                <div class="w-0.5 h-8 md:h-10 bg-blue-600 mb-1 md:mb-2"></div>
-                                <div class="w-10 h-10 md:w-11 md:h-11 bg-white rounded-full shadow-lg flex items-center justify-center border-2 border-blue-600">
-                                    <span class="text-base md:text-lg font-bold text-gray-900">E</span>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!-- C - Izquierda -->
-                        <div class="absolute -left-2 md:left-2 top-1/2 -translate-y-1/2">
-                            <div class="flex items-center">
-                                <div class="w-10 h-10 md:w-11 md:h-11 bg-white rounded-full shadow-lg flex items-center justify-center border-2 border-blue-600">
-                                    <span class="text-base md:text-lg font-bold text-gray-900">C</span>
-                                </div>
-                                <div class="w-8 md:w-10 h-0.5 bg-blue-600 ml-1 md:ml-2"></div>
-                            </div>
-                        </div>
-                        
-                        <!-- C - Derecha -->
-                        <div class="absolute -right-2 md:right-2 top-1/2 -translate-y-1/2">
-                            <div class="flex items-center">
-                                <div class="w-8 md:w-10 h-0.5 bg-blue-600 mr-1 md:mr-2"></div>
-                                <div class="w-10 h-10 md:w-11 md:h-11 bg-white rounded-full shadow-lg flex items-center justify-center border-2 border-blue-600">
-                                    <span class="text-base md:text-lg font-bold text-gray-900">C</span>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!-- R+S - Abajo -->
-                        <div class="absolute -bottom-2 md:bottom-2 left-1/2 -translate-x-1/2">
-                            <div class="flex flex-col items-center">
-                                <div class="w-12 h-12 md:w-13 md:h-13 bg-white rounded-full shadow-lg flex items-center justify-center border-2 border-blue-600">
-                                    <span class="text-xs md:text-sm font-bold text-gray-900">R+S</span>
-                                </div>
-                                <div class="w-0.5 h-8 md:h-10 bg-blue-600 mt-1 md:mt-2"></div>
-                            </div>
-                        </div>
+            <!-- Contenedor del círculo y cards -->
+            <div class="flex-1 w-full grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                
+                <!-- Círculo de 4 EJES usando la imagen -->
+                <div class="flex justify-center lg:justify-end z-20">
+                    <div class="relative w-64 h-64 md:w-80 md:h-80 transform hover:scale-105 transition-transform duration-500">
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/circulo.png" 
+                             alt="4 EJES - Nuestras Soluciones" 
+                             class="w-full h-full object-contain drop-shadow-2xl">
                     </div>
                 </div>
                 
-                <!-- Lado derecho - Lista de servicios con hovers mejorados - AL FRENTE -->
-                <div class="space-y-3 md:space-y-4 pl-0 md:pl-8 relative z-30 mt-8 md:mt-0">
+                <!-- Lista de servicios -->
+                <div class="space-y-3 md:space-y-4 z-20">
                     <!-- Entrenamiento -->
                     <div class="group bg-white border-2 border-gray-200 rounded-2xl p-4 md:p-5 flex items-center justify-between cursor-pointer hover:bg-[#1e3a8a] hover:border-[#1e3a8a] transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:-translate-y-1">
                         <div class="flex items-center space-x-3 md:space-x-4">
-                            <div class="w-10 h-10 md:w-12 md:h-12 bg-blue-100 group-hover:bg-white rounded-xl flex items-center justify-center transition-colors duration-300">
+                            <div class="w-10 h-10 md:w-12 md:h-12 bg-blue-100 group-hover:bg-white rounded-xl flex items-center justify-center transition-colors duration-300 flex-shrink-0">
                                 <svg class="w-5 h-5 md:w-6 md:h-6 text-blue-600 group-hover:text-[#1e3a8a] transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                                 </svg>
                             </div>
                             <span class="font-semibold text-gray-800 group-hover:text-white transition-colors duration-300 text-base md:text-lg">Entrenamiento</span>
                         </div>
-                        <svg class="w-5 h-5 md:w-6 md:h-6 text-gray-400 group-hover:text-white transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg class="w-5 h-5 md:w-6 md:h-6 text-gray-400 group-hover:text-white transition-colors duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                         </svg>
                     </div>
@@ -117,14 +74,14 @@ get_header();
                     <!-- Reclutamiento y selección -->
                     <div class="group bg-white border-2 border-gray-200 rounded-2xl p-4 md:p-5 flex items-center justify-between cursor-pointer hover:bg-[#1e3a8a] hover:border-[#1e3a8a] transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:-translate-y-1">
                         <div class="flex items-center space-x-3 md:space-x-4">
-                            <div class="w-10 h-10 md:w-12 md:h-12 bg-blue-100 group-hover:bg-white rounded-xl flex items-center justify-center transition-colors duration-300">
+                            <div class="w-10 h-10 md:w-12 md:h-12 bg-blue-100 group-hover:bg-white rounded-xl flex items-center justify-center transition-colors duration-300 flex-shrink-0">
                                 <svg class="w-5 h-5 md:w-6 md:h-6 text-blue-600 group-hover:text-[#1e3a8a] transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                                 </svg>
                             </div>
                             <span class="font-semibold text-gray-800 group-hover:text-white transition-colors duration-300 text-base md:text-lg">Reclutamiento + Selección</span>
                         </div>
-                        <svg class="w-5 h-5 md:w-6 md:h-6 text-gray-400 group-hover:text-white transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg class="w-5 h-5 md:w-6 md:h-6 text-gray-400 group-hover:text-white transition-colors duration-300 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
                         </svg>
                     </div>
