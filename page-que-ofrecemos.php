@@ -253,46 +253,48 @@ get_header();
             </p>
         </div>
         
-        <!-- Grid de 3 imágenes con texto superpuesto -->
-        <div class="grid md:grid-cols-3 gap-8">
-            <!-- Card 1: Reduce la curva de aprendizaje -->
-            <div class="relative rounded-3xl overflow-hidden shadow-2xl group h-80">
-                <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=600" 
+        <!-- Grid de imágenes tipo collage: 1 grande a la izquierda, 2 pequeñas apiladas a la derecha -->
+        <div class="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+            
+            <!-- Imagen grande izquierda: Reduce la curva de aprendizaje -->
+            <div class="relative rounded-3xl overflow-hidden shadow-2xl group md:row-span-2 h-96 md:h-[500px]">
+                <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=800" 
                      alt="Reduce la curva de aprendizaje" 
                      class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                 <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
                 <div class="absolute bottom-0 left-0 right-0 p-8">
-                    <h3 class="text-white text-2xl font-bold leading-tight">
+                    <h3 class="text-white text-2xl md:text-3xl font-bold leading-tight">
                         Reduce la curva de aprendizaje.
                     </h3>
                 </div>
             </div>
             
-            <!-- Card 2: Disminuye la accidentabilidad -->
-            <div class="relative rounded-3xl overflow-hidden shadow-2xl group h-80">
+            <!-- Imagen pequeña superior derecha: Disminuye la accidentabilidad -->
+            <div class="relative rounded-3xl overflow-hidden shadow-2xl group h-60 md:h-60">
                 <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=600" 
                      alt="Disminuye la accidentabilidad" 
                      class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                 <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
-                <div class="absolute bottom-0 left-0 right-0 p-8">
-                    <h3 class="text-white text-2xl font-bold leading-tight">
+                <div class="absolute bottom-0 left-0 right-0 p-6">
+                    <h3 class="text-white text-xl md:text-2xl font-bold leading-tight">
                         Disminuye la accidentabilidad y pérdidas de material.
                     </h3>
                 </div>
             </div>
             
-            <!-- Card 3: Aumenta la productividad -->
-            <div class="relative rounded-3xl overflow-hidden shadow-2xl group h-80">
+            <!-- Imagen pequeña inferior derecha: Aumenta la productividad -->
+            <div class="relative rounded-3xl overflow-hidden shadow-2xl group h-60 md:h-56">
                 <img src="https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?q=80&w=600" 
                      alt="Aumenta la productividad" 
                      class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                 <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
-                <div class="absolute bottom-0 left-0 right-0 p-8">
-                    <h3 class="text-white text-2xl font-bold leading-tight">
+                <div class="absolute bottom-0 left-0 right-0 p-6">
+                    <h3 class="text-white text-xl md:text-2xl font-bold leading-tight">
                         Aumenta la productividad desde el primer día.
                     </h3>
                 </div>
             </div>
+            
         </div>
     </div>
 </section>
