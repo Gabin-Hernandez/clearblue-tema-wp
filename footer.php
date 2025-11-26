@@ -105,7 +105,7 @@
         </div>
         
         <div class="text-center mt-8 text-gray-500 text-sm">
-            <p><?php bloginfo('Creatblue México'); ?></p>
+            <p>Creatblue México</p>
             <p>&copy; Avenida JINT #300 Parque industrial JINT. Puebla, Pue.</p>
         </div>
     </div>
