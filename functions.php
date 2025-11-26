@@ -9,6 +9,13 @@ add_action( 'wp_head', 'add_tailwind_css' );
 function add_tailwind_css() {
     ?>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @layer utilities {
+            .bg-gradient-radial {
+                background-image: radial-gradient(var(--tw-gradient-stops));
+            }
+        }
+    </style>
     <?php
 }
 

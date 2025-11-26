@@ -39,8 +39,8 @@
                     'items_wrap' => '%3$s',
                     'fallback_cb' => function() {
                         ?>
-                        <a href="#" class="text-white hover:text-blue-300 transition">Quiénes somos</a>
-                        <a href="#" class="text-white hover:text-blue-300 transition">Qué ofrecemos</a>
+                        <a href="<?php echo esc_url(home_url('/')); ?>" class="text-white hover:text-blue-300 transition">Quiénes somos</a>
+                        <a href="<?php echo esc_url(home_url('/que-ofrecemos')); ?>" class="text-white hover:text-blue-300 transition">Qué ofrecemos</a>
                         <a href="#" class="text-white hover:text-blue-300 transition">Camino zum talent</a>
                         <a href="#" class="text-white hover:text-blue-300 transition">Contáctanos</a>
                         <a href="#" class="text-white hover:text-blue-300 transition">Bolsa de trabajo</a>
@@ -77,8 +77,8 @@
                 'fallback_cb' => function() {
                     ?>
                     <div class="space-y-3">
-                        <a href="#" class="block text-white hover:text-blue-300 transition py-2">Quiénes somos</a>
-                        <a href="#" class="block text-white hover:text-blue-300 transition py-2">Qué ofrecemos</a>
+                        <a href="<?php echo esc_url(home_url('/')); ?>" class="block text-white hover:text-blue-300 transition py-2">Quiénes somos</a>
+                        <a href="<?php echo esc_url(home_url('/que-ofrecemos')); ?>" class="block text-white hover:text-blue-300 transition py-2">Qué ofrecemos</a>
                         <a href="#" class="block text-white hover:text-blue-300 transition py-2">Camino zum talent</a>
                         <a href="#" class="block text-white hover:text-blue-300 transition py-2">Contáctanos</a>
                         <a href="#" class="block text-white hover:text-blue-300 transition py-2">Bolsa de trabajo</a>
