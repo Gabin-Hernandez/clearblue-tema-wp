@@ -52,18 +52,18 @@
                 ?>
             </div>
             
-            <!-- Botón derecha -->
-            <div class="flex items-center space-x-4">
+            <!-- Botón derecha OCULTO-->
+            <!--div class="flex items-center space-x-4">
                 <a href="#contacto" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-md transition font-medium">
                 <i class="fa-brands fa-whatsapp"></i> Chat ahora
                 </a>
-                <!-- Menú móvil toggle -->
+                Menú móvil toggle
                 <button id="mobile-menu-toggle" class="md:hidden text-white focus:outline-none">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
                     </svg>
                 </button>
-            </div>
+            </div-->
         </div>
         
         <!-- Menú móvil -->
