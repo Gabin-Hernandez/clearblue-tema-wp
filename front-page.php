@@ -62,7 +62,7 @@ get_header();
                 <!-- Lista de servicios -->
                 <div class="space-y-3 md:space-y-4 z-20">
                     <!-- Entrenamiento -->
-                    <div class="group bg-white border-2 border-gray-200 rounded-2xl p-2 md:p-5 flex items-center justify-between cursor-pointer hover:bg-primary hover:border-primary transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:-translate-y-1">
+                    <div class="group bg-white border-2 border-gray-200 rounded-2xl p-2 md:p-3 flex items-center justify-between cursor-pointer hover:bg-primary hover:border-primary transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:-translate-y-1">
                         <div class="flex items-center space-x-3 md:space-x-4">
                             <div class="w-10 h-10 md:w-12 md:h-12 bg-blue-100 group-hover:bg-white rounded-xl flex items-center justify-center transition-colors duration-300 flex-shrink-0">
                                 <svg class="w-5 h-5 md:w-6 md:h-6 text-primary group-hover:text-[#1e3a8a] transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -77,7 +77,7 @@ get_header();
                     </div>
                     
                     <!-- Reclutamiento y selección -->
-                    <div class="group bg-white border-2 border-gray-200 rounded-2xl p-2 md:p-5 flex items-center justify-between cursor-pointer hover:bg-primary hover:border-primary transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:-translate-y-1">
+                    <div class="group bg-white border-2 border-gray-200 rounded-2xl p-2 md:p-3 flex items-center justify-between cursor-pointer hover:bg-primary hover:border-primary transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:-translate-y-1">
                         <div class="flex items-center space-x-3 md:space-x-4">
                             <div class="w-10 h-10 md:w-12 md:h-12 bg-blue-100 group-hover:bg-white rounded-xl flex items-center justify-center transition-colors duration-300 flex-shrink-0">
                                 <svg class="w-5 h-5 md:w-6 md:h-6 text-primary group-hover:text-[#1e3a8a] transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -92,7 +92,7 @@ get_header();
                     </div>
                     
                     <!-- Capacitación -->
-                    <div class="group bg-white border-2 border-gray-200 rounded-2xl p-2 md:p-5 flex items-center justify-between cursor-pointer hover:bg-primary hover:border-primary transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:-translate-y-1">
+                    <div class="group bg-white border-2 border-gray-200 rounded-2xl p-2 md:p-3 flex items-center justify-between cursor-pointer hover:bg-primary hover:border-primary transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:-translate-y-1">
                         <div class="flex items-center space-x-3 md:space-x-4">
                             <div class="w-10 h-10 md:w-12 md:h-12 bg-blue-100 group-hover:bg-white rounded-xl flex items-center justify-center transition-colors duration-300">
                                 <svg class="w-5 h-5 md:w-6 md:h-6 text-primary group-hover:text-[#1e3a8a] transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -107,7 +107,7 @@ get_header();
                     </div>
                     
                     <!-- Consultoría -->
-                    <div class="group bg-white border-2 border-gray-200 rounded-2xl p-2 md:p-5 flex items-center justify-between cursor-pointer hover:bg-primary hover:border-primary transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:-translate-y-1">
+                    <div class="group bg-white border-2 border-gray-200 rounded-2xl p-2 md:p-3 flex items-center justify-between cursor-pointer hover:bg-primary hover:border-primary transition-all duration-300 shadow-lg hover:shadow-2xl transform hover:-translate-y-1">
                         <div class="flex items-center space-x-3 md:space-x-4">
                             <div class="w-10 h-10 md:w-12 md:h-12 bg-blue-100 group-hover:bg-white rounded-xl flex items-center justify-center transition-colors duration-300">
                                 <svg class="w-5 h-5 md:w-6 md:h-6 text-primary group-hover:text-[#1e3a8a] transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
