@@ -18,7 +18,7 @@ get_header();
             <h1 class="text-white text-5xl md:text-6xl font-normal leading-tight mb-6">
                 Lorem <span class="font-bold text-secondary">ipsum</span> is simply dummy text of the printing and typesetting industry. Lorem has been the industry's
             </h1>
-            <button class="bg-secondary hover:bg-secondary-dark text-primary px-8 py-3 rounded-xl transition font-medium text-lg">
+            <button class="bg-secondary hover:bg-secondary-dark text-primary px-8 py-3 rounded-xl transition font-bold text-md">
                 ACTION BT
             </button>
         </div>
@@ -266,7 +266,7 @@ get_header();
                 
                 <!-- Botón CTA -->
                 <div class="flex-shrink-0">
-                    <button class="bg-blue-400 hover:bg-blue-300 text-white px-10 py-4 rounded-xl transition-all duration-300 font-semibold text-lg shadow-lg hover:shadow-xl transform hover:scale-105">
+                    <button class="bg-blue-400 hover:bg-blue-300 text-white px-10 py-4 rounded-xl transition-all duration-300 font-bold text-md shadow-lg hover:shadow-xl transform hover:scale-105">
                         ACTION BT
                     </button>
                 </div>
