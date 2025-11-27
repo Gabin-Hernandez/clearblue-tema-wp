@@ -46,7 +46,7 @@ get_header();
                 <!-- Círculo de 4 EJES usando la imagen -->
                 <div class="flex justify-center md:justify-start z-20 md:-mr-12">
                     <div class="relative w-64 h-64 md:w-80 md:h-80 transform hover:scale-105 transition-transform duration-500">
-                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/circulo.png" 
+                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/circulo.webp" 
                              alt="4 EJES - Nuestras Soluciones" 
                              class="w-full h-full object-contain drop-shadow-2xl">
                     </div>
