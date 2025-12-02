@@ -243,7 +243,7 @@ get_header();
 <!-- Banner CTA Newsletter - Más redondeado -->
 <section class="py-20 bg-gray-50">
     <div class="container mx-auto px-6">
-        <div class="relative overflow-hidden bg-gradient-to-b from-secondary to-primary rounded-3xl shadow-2xl">
+        <div class="relative overflow-hidden bg-gradient-to-b from-[#2f3082] to-primary rounded-3xl shadow-2xl">
             <div class="flex flex-col md:flex-row items-center justify-between gap-8 p-10 md:p-12 relative z-10">
                 <!-- Contenido de texto -->
                 <div class="text-white">
