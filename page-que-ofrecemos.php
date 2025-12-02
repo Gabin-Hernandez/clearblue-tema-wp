@@ -243,17 +243,23 @@ get_header();
     
     <div class="container mx-auto px-6 relative z-10">
         <!-- Header -->
-        <div class="mb-16">
-            <p class="text-[#849dfa] uppercase tracking-[0.2em] text-xs font-bold mb-4">
-                Reclutamiento + Entrenamiento
-            </p>
-            <h2 class="text-white mb-6">
-                <span class="block text-4xl md:text-5xl font-bold uppercase tracking-wide mb-2">WORKFORCE</span>
-                <span class="block text-5xl md:text-6xl lg:text-7xl font-light italic">ready to go!</span>
-            </h2>
-            <p class="text-white text-lg max-w-2xl">
-                de personal sin experiencia.
-            </p>
+        <div class="grid md:grid-cols-2 gap-8 items-center mb-16">
+            <!-- Columna 1: Logo WORKFORCE -->
+            <div>
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/workforce_asset.png" 
+                     alt="WORKFORCE" 
+                     class="w-full max-w-[400px] h-auto">
+            </div>
+            
+            <!-- Columna 2: Título y texto -->
+            <div>
+                <h2 class="text-[#849dfa] uppercase tracking-[0.2em] text-xs font-bold mb-4">
+                    Reclutamiento + Entrenamiento
+                </h2>
+                <p class="text-white text-lg max-w-2xl">
+                    de personal sin experiencia.
+                </p>
+            </div>
         </div>
         
         <!-- Grid de imágenes tipo collage: 1 grande a la izquierda, 2 pequeñas apiladas a la derecha -->
