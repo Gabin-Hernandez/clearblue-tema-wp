@@ -18,7 +18,7 @@ get_header();
             <h1 class="text-white text-5xl md:text-6xl font-normal leading-tight mb-6">
                 Lorem <span class="font-bold text-secondary">ipsum</span> is simply dummy text of the printing and typesetting industry. Lorem has been the industry's
             </h1>
-            <button class="bg-secondary hover:bg-primary text-primary hover:text-secondary px-8 py-3 rounded-xl transition font-bold text-md">
+            <button class="bg-blue-400 hover:bg-blue-300 text-white px-10 py-4 rounded-xl transition-all duration-300 font-bold text-md shadow-lg hover:shadow-xl transform hover:scale-105">
                 ACTION BT
             </button>
         </div>
@@ -129,8 +129,8 @@ get_header();
 
 <!-- Sección Creatblue Originals con corte diagonal y onda -->
 <section class="relative overflow-hidden" style="clip-path: polygon(0 8%, 100% 0%, 100% 100%, 0 100%);">
-    <!-- Fondo con degradado morado oscuro -->
-    <div class="absolute inset-0 bg-gradient-to-br from-[#2a2d5a] via-[#1e2847] to-[#0f1229]"></div>
+    <!-- Fondo con degradado radial -->
+    <div class="absolute inset-0 bg-gradient-radial from-secondary to-primary"></div>
     
     <!-- Onda expansiva de degradado morado -->
     <div class="absolute inset-0 opacity-40">
