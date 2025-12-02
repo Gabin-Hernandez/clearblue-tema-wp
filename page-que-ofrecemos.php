@@ -37,28 +37,28 @@ get_header();
             <div class="relative h-[500px] lg:h-[600px] hidden lg:block">
                 <!-- Imagen 1 - Superior izquierda -->
                 <div class="absolute top-0 left-0 w-48 h-48 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-10 opacity-0 scale-75 animate-on-scroll particle-float" data-delay="300" data-speed="0.3">
-                    <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=400" 
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima1.jpg" 
                          alt="Trabajador 1" 
                          class="w-full h-full object-cover">
                 </div>
                 
                 <!-- Imagen 2 - Superior derecha -->
                 <div class="absolute top-0 right-0 w-56 h-40 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-20 opacity-0 scale-75 animate-on-scroll particle-float" data-delay="500" data-speed="0.5">
-                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=400" 
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima2.jpg" 
                          alt="Trabajador 2" 
                          class="w-full h-full object-cover">
                 </div>
                 
                 <!-- Imagen 3 - Centro izquierda (más grande y destacada) -->
                 <div class="absolute top-32 left-12 w-52 h-56 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-30 opacity-0 scale-75 animate-on-scroll particle-float" data-delay="700" data-speed="0.2">
-                    <img src="https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?q=80&w=400" 
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima3.jpg" 
                          alt="Trabajador 3" 
                          class="w-full h-full object-cover">
                 </div>
                 
                 <!-- Imagen 4 - Inferior derecha -->
                 <div class="absolute bottom-0 right-8 w-48 h-52 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-20 opacity-0 scale-75 animate-on-scroll particle-float" data-delay="900" data-speed="0.4">
-                    <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=400" 
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima4.jpg" 
                          alt="Trabajador 4" 
                          class="w-full h-full object-cover">
                 </div>
@@ -71,22 +71,22 @@ get_header();
             <!-- Grid móvil - Mostrar solo en pantallas pequeñas -->
             <div class="grid grid-cols-2 gap-4 lg:hidden">
                 <div class="rounded-2xl overflow-hidden shadow-lg">
-                    <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=400" 
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima1.jpg" 
                          alt="Trabajador 1" 
                          class="w-full h-48 object-cover">
                 </div>
                 <div class="rounded-2xl overflow-hidden shadow-lg">
-                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=400" 
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima2.jpg" 
                          alt="Trabajador 2" 
                          class="w-full h-48 object-cover">
                 </div>
                 <div class="rounded-2xl overflow-hidden shadow-lg">
-                    <img src="https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?q=80&w=400" 
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima3.jpg" 
                          alt="Trabajador 3" 
                          class="w-full h-48 object-cover">
                 </div>
                 <div class="rounded-2xl overflow-hidden shadow-lg">
-                    <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=400" 
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima4.jpg" 
                          alt="Trabajador 4" 
                          class="w-full h-48 object-cover">
                 </div>
@@ -268,7 +268,7 @@ get_header();
             
             <!-- Imagen grande izquierda: Reduce la curva de aprendizaje -->
             <div class="relative rounded-3xl overflow-hidden shadow-2xl group md:row-span-2 h-96 md:h-[500px] opacity-0 scale-75 animate-on-scroll" data-delay="600">
-                <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=800" 
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima5.jpg" 
                      alt="Reduce la curva de aprendizaje" 
                      class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                 <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
@@ -281,7 +281,7 @@ get_header();
             
             <!-- Imagen pequeña superior derecha: Disminuye la accidentabilidad -->
             <div class="relative rounded-3xl overflow-hidden shadow-2xl group h-60 md:h-60 opacity-0 scale-75 animate-on-scroll" data-delay="800">
-                <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=600" 
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima6.jpg" 
                      alt="Disminuye la accidentabilidad" 
                      class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                 <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
@@ -294,7 +294,7 @@ get_header();
             
             <!-- Imagen pequeña inferior derecha: Aumenta la productividad -->
             <div class="relative rounded-3xl overflow-hidden shadow-2xl group h-60 md:h-56 opacity-0 scale-75 animate-on-scroll" data-delay="1000">
-                <img src="https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?q=80&w=600" 
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/ima7.jpg" 
                      alt="Aumenta la productividad" 
                      class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
                 <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
