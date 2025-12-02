@@ -15,20 +15,20 @@ get_header();
             <!-- Columna izquierda - Contenido de texto -->
             <div class="max-w-xl">
                 <!-- Badge -->
-                <div class="inline-block mb-6">
+                <div class="inline-block mb-6 opacity-0 translate-y-8 animate-on-scroll" data-delay="100">
                     <span class="bg-[#849dfa] text-white text-xs font-bold px-4 py-2 rounded-full uppercase tracking-wider">
                         CB RECLUTAMIENTO + SELECCIÓN
                     </span>
                 </div>
                 
                 <!-- Título principal -->
-                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
                     Estrategias efectivas de reclutamiento y selección de personal para 
                     <span class="text-[#849dfa]">IMPULSAR</span> tu capital humano
                 </h1>
                 
                 <!-- CTA Button -->
-                <button class="bg-[#849dfa] hover:bg-[#6b7fd8] text-white px-8 py-4 rounded-lg transition font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 duration-300">
+                <button class="bg-blue-400 hover:bg-blue-300 text-white px-10 py-4 rounded-xl transition-all duration-300 font-bold text-md shadow-lg hover:shadow-xl transform hover:scale-105 opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
                     ACCIÓN BT
                 </button>
             </div>
@@ -36,28 +36,28 @@ get_header();
             <!-- Columna derecha - Grid de imágenes desordenado -->
             <div class="relative h-[500px] lg:h-[600px] hidden lg:block">
                 <!-- Imagen 1 - Superior izquierda -->
-                <div class="absolute top-0 left-0 w-48 h-48 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-10">
+                <div class="absolute top-0 left-0 w-48 h-48 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-10 opacity-0 scale-75 animate-on-scroll" data-delay="300">
                     <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=400" 
                          alt="Trabajador 1" 
                          class="w-full h-full object-cover">
                 </div>
                 
                 <!-- Imagen 2 - Superior derecha -->
-                <div class="absolute top-0 right-0 w-56 h-40 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-20">
+                <div class="absolute top-0 right-0 w-56 h-40 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-20 opacity-0 scale-75 animate-on-scroll" data-delay="500">
                     <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=400" 
                          alt="Trabajador 2" 
                          class="w-full h-full object-cover">
                 </div>
                 
                 <!-- Imagen 3 - Centro izquierda (más grande y destacada) -->
-                <div class="absolute top-32 left-12 w-52 h-56 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-30">
+                <div class="absolute top-32 left-12 w-52 h-56 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-30 opacity-0 scale-75 animate-on-scroll" data-delay="700">
                     <img src="https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?q=80&w=400" 
                          alt="Trabajador 3" 
                          class="w-full h-full object-cover">
                 </div>
                 
                 <!-- Imagen 4 - Inferior derecha -->
-                <div class="absolute bottom-0 right-8 w-48 h-52 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-20">
+                <div class="absolute bottom-0 right-8 w-48 h-52 rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 z-20 opacity-0 scale-75 animate-on-scroll" data-delay="900">
                     <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?q=80&w=400" 
                          alt="Trabajador 4" 
                          class="w-full h-full object-cover">
@@ -100,7 +100,7 @@ get_header();
 <section class="py-20 bg-white">
     <div class="container mx-auto px-6">
         <div class="text-center max-w-3xl mx-auto mb-16">
-            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
                 Gracias a nuestra experiencia en la gestión de capital humano, conocemos los desafíos clave que enfrentan las empresas y el impacto en su Core Business.
             </h2>
         </div>
@@ -108,7 +108,7 @@ get_header();
         <!-- Grid de 3 columnas con iconos -->
         <div class="grid md:grid-cols-3 gap-8 mb-20">
             <!-- Card 1: Menor tiempo -->
-            <div class="text-center">
+            <div class="text-center opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
                 <div class="inline-flex items-center justify-center w-20 h-20 bg-[#849dfa] rounded-full mb-6">
                     <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -121,7 +121,7 @@ get_header();
             </div>
             
             <!-- Card 2: Reclutamiento especializado -->
-            <div class="text-center">
+            <div class="text-center opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
                 <div class="inline-flex items-center justify-center w-20 h-20 bg-[#849dfa] rounded-full mb-6">
                     <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -134,7 +134,7 @@ get_header();
             </div>
             
             <!-- Card 3: Procesos asistidos -->
-            <div class="text-center">
+            <div class="text-center opacity-0 translate-y-8 animate-on-scroll" data-delay="800">
                 <div class="inline-flex items-center justify-center w-20 h-20 bg-[#849dfa] rounded-full mb-6">
                     <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
@@ -153,7 +153,7 @@ get_header();
 <section class="py-20 bg-gradient-to-br from-[#849dfa] to-[#6b7fd8]">
     <div class="container mx-auto px-6">
         <div class="text-center mb-16">
-            <h2 class="text-4xl md:text-5xl font-bold text-white mb-4">
+            <h2 class="text-4xl md:text-5xl font-bold text-white mb-4 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
                 ¿Te ha pasado?
             </h2>
         </div>
@@ -161,7 +161,7 @@ get_header();
         <!-- Grid de 4 cards -->
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <!-- Card 1: Paros en línea -->
-            <div class="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+            <div class="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
                 <div class="flex justify-center mb-6">
                     <div class="w-16 h-16 bg-[#849dfa] rounded-2xl flex items-center justify-center">
                         <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -178,7 +178,7 @@ get_header();
             </div>
             
             <!-- Card 2: Daños en instalaciones -->
-            <div class="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+            <div class="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
                 <div class="flex justify-center mb-6">
                     <div class="w-16 h-16 bg-[#849dfa] rounded-2xl flex items-center justify-center">
                         <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -195,7 +195,7 @@ get_header();
             </div>
             
             <!-- Card 3: Accidentes e incidentes -->
-            <div class="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+            <div class="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 opacity-0 translate-y-8 animate-on-scroll" data-delay="800">
                 <div class="flex justify-center mb-6">
                     <div class="w-16 h-16 bg-[#849dfa] rounded-2xl flex items-center justify-center">
                         <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -212,7 +212,7 @@ get_header();
             </div>
             
             <!-- Card 4: Scrap de materiales -->
-            <div class="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+            <div class="bg-white rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 opacity-0 translate-y-8 animate-on-scroll" data-delay="1000">
                 <div class="flex justify-center mb-6">
                     <div class="w-16 h-16 bg-[#849dfa] rounded-2xl flex items-center justify-center">
                         <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -308,11 +308,72 @@ get_header();
         <p class="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
             Contáctanos hoy y descubre cómo podemos ayudarte a optimizar tus procesos de reclutamiento y capacitación.
         </p>
-        <button class="bg-[#849dfa] hover:bg-[#6b7fd8] text-white px-10 py-4 rounded-lg transition font-semibold text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 duration-300">
+        <button class="bg-blue-400 hover:bg-blue-300 text-white px-10 py-4 rounded-xl transition-all duration-300 font-bold text-md shadow-lg hover:shadow-xl transform hover:scale-105 opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
             Contáctanos ahora
         </button>
     </div>
 </section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Intersection Observer para las animaciones de scroll
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '-50px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                const element = entry.target;
+                const delay = parseInt(element.dataset.delay) || 0;
+                
+                setTimeout(() => {
+                    element.classList.add('animate-in');
+                    element.classList.remove('opacity-0', 'translate-y-8', 'translate-x-8', 'scale-75');
+                }, delay);
+                
+                observer.unobserve(element);
+            }
+        });
+    }, observerOptions);
+
+    // Observar todos los elementos con la clase animate-on-scroll
+    const animatedElements = document.querySelectorAll('.animate-on-scroll');
+    animatedElements.forEach((element) => {
+        observer.observe(element);
+    });
+
+    // Efecto parallax para las partículas flotantes
+    const particles = document.querySelectorAll('.particle-float');
+    
+    window.addEventListener('scroll', () => {
+        const scrollY = window.scrollY;
+        
+        particles.forEach(particle => {
+            const speed = parseFloat(particle.dataset.speed) || 0.5;
+            const yPos = -(scrollY * speed);
+            particle.style.transform = `translateY(${yPos}px)`;
+        });
+    });
+});
+</script>
+
+<style>
+.animate-on-scroll {
+    transition: all 0.8s cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.animate-on-scroll.animate-in {
+    opacity: 1 !important;
+    transform: translateY(0) translateX(0) scale(1) !important;
+}
+
+.particle-float {
+    transition: transform 0.1s ease-out;
+    will-change: transform;
+}
+</style>
 
 <?php
 get_footer();
