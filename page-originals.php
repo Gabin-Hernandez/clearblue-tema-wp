@@ -121,8 +121,8 @@ get_header();
         <div class="max-w-4xl mx-auto">
             <!-- Badge con efecto glassmorphism -->
             <div class="backdrop-blur-xl bg-white/10 border border-white/20 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 transform hover:-translate-y-1 opacity-0 translate-y-8 animate-on-scroll" data-delay="200">
-                <div class="px-6 py-8 md:px-16 md:py-16 text-center">                    
-                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight drop-shadow-2xl">
+                <div class="px-6 py-8 md:px-14 md:py-14 text-center">                    
+                    <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold text-white leading-tight drop-shadow-2xl">
                         Decisiones respaldadas por estrategia
                     </h2>
                 </div>
