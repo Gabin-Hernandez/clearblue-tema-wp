@@ -127,28 +127,29 @@ get_header();
     </div>
 
         <!-- Grid de 2 banners horizontales Workforce y CreatPlay  -->
-        <div class="container mx-auto px-6 relative z-10 space-y-8">
-            
-            <!-- Banner 1: WORKFORCE - Reclutamiento + Entrenamiento -->
-            <div class="bg-gradient-to-r from-[#1a1d4a] to-[#2f3082] rounded-3xl overflow-hidden shadow-2xl opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
-                <div class="grid md:grid-cols-2 gap-8 items-center">
-                    <!-- Imagen izquierda -->
-                    <div class="p-8 md:p-12 flex items-center justify-center">
+        <div class="container mx-auto px-6 relative z-10">
+            <!-- Grid de 2 columnas -->
+            <div class="grid lg:grid-cols-2 gap-8">
+                
+                <!-- Banner 1: WORKFORCE - Reclutamiento + Entrenamiento -->
+                <div class="bg-gradient-to-b from-[#1a1d4a] to-[#2f3082] rounded-3xl overflow-hidden shadow-2xl opacity-0 translate-y-8 animate-on-scroll" data-delay="400">
+                    <!-- Imagen arriba -->
+                    <div class="p-8 md:p-10 flex items-center justify-center border-b border-white/10">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/workforce_asset.png" 
                              alt="WORKFORCE ready to go" 
-                             class="w-full max-w-[350px] h-auto">
+                             class="w-full max-w-[300px] h-auto">
                     </div>
                     
-                    <!-- Contenido derecho -->
-                    <div class="p-8 md:p-12 md:pr-16">
-                        <h3 class="text-white text-3xl md:text-4xl font-bold mb-4 leading-tight">
+                    <!-- Contenido abajo -->
+                    <div class="p-8 md:p-10">
+                        <h3 class="text-white text-2xl md:text-3xl font-bold mb-4 leading-tight">
                             Reclutamiento + Entrenamiento
                         </h3>
-                        <p class="text-white/90 text-lg mb-6">
-                            de personal sin experiencia.
+                        <p class="text-white/90 text-base md:text-lg mb-6">
+                            Reclutamiento y entrenamiento de personal sin experiencia.
                         </p>
-                        <button class="bg-secondary hover:bg-secondary/80 text-white px-6 py-3 rounded-xl transition-all duration-300 font-bold text-md shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center gap-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-player-play">
+                        <button class="bg-secondary hover:bg-secondary/80 text-white px-6 py-3 rounded-xl transition-all duration-300 font-bold text-sm md:text-md shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-player-play">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                 <path d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z" />
                             </svg>
@@ -156,28 +157,26 @@ get_header();
                         </button>
                     </div>
                 </div>
-            </div>
-            
-            <!-- Banner 2: CREATPLAY - Desarrollo de VIDEO GAMING -->
-            <div class="bg-gradient-to-r from-[#1a1d4a] to-[#2f3082] rounded-3xl overflow-hidden shadow-2xl opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
-                <div class="grid md:grid-cols-2 gap-8 items-center">
-                    <!-- Imagen izquierda -->
-                    <div class="p-8 md:p-12 flex items-center justify-center">
+                
+                <!-- Banner 2: CREATPLAY - Desarrollo de VIDEO GAMING -->
+                <div class="bg-gradient-to-b from-[#1a1d4a] to-[#2f3082] rounded-3xl overflow-hidden shadow-2xl opacity-0 translate-y-8 animate-on-scroll" data-delay="600">
+                    <!-- Imagen arriba -->
+                    <div class="p-8 md:p-10 flex items-center justify-center border-b border-white/10">
                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/public/creatplay_asset.png" 
                              alt="CREATPLAY" 
-                             class="w-full max-w-[350px] h-auto">
+                             class="w-full max-w-[300px] h-auto">
                     </div>
                     
-                    <!-- Contenido derecho -->
-                    <div class="p-8 md:p-12 md:pr-16">
-                        <h3 class="text-white text-3xl md:text-4xl font-bold mb-4 leading-tight">
+                    <!-- Contenido abajo -->
+                    <div class="p-8 md:p-10">
+                        <h3 class="text-white text-2xl md:text-3xl font-bold mb-4 leading-tight">
                             Desarrollo de VIDEO GAMING
                         </h3>
-                        <p class="text-white/90 text-lg mb-6">
-                            para capacitaciones empresariales
+                        <p class="text-white/90 text-base md:text-lg mb-6">
+                            Desarrollo para capacitaciones empresariales.
                         </p>
-                        <button class="bg-secondary hover:bg-secondary/80 text-white px-6 py-3 rounded-xl transition-all duration-300 font-bold text-md shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center gap-3">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-player-play">
+                        <button class="bg-secondary hover:bg-secondary/80 text-white px-6 py-3 rounded-xl transition-all duration-300 font-bold text-sm md:text-md shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center gap-3">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-player-play">
                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                 <path d="M6 4v16a1 1 0 0 0 1.524 .852l13 -8a1 1 0 0 0 0 -1.704l-13 -8a1 1 0 0 0 -1.524 .852z" />
                             </svg>
@@ -185,8 +184,8 @@ get_header();
                         </button>
                     </div>
                 </div>
+                
             </div>
-            
         </div>
         
     </div>
