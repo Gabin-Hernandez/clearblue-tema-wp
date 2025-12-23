@@ -253,6 +253,7 @@ get_header();
             </div>
             
             <!-- Columna 2: Título y texto -->
+            <h2 class="text-white text-2xl md:text-3xl font-bold leading-tight text-center opacity-0 translate-x-8 animate-on-scroll" data-delay="400">¿Dificultad para encontrar personal calificado?</h2>
             <div class="text-right opacity-0 translate-x-8 animate-on-scroll" data-delay="400">
                 <h2 class="text-secondary uppercase tracking-[0.2em] font-bold">
                     Reclutamiento + Entrenamiento
