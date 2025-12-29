@@ -15,11 +15,17 @@ jobs:
       with:
         fetch-depth: 0
 
-    - name: 📂 Sincronizar archivos FTP
+  - name: 📂 Sincronizar archivos FTP
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: 217.196.57.131  # IP sacada de tu imagen
-        username: u676347305.gaboprueba  # Usuario sacado de tu imagen
-        password: ${{ secrets.FTP_PASSWORD }} # Lee la contraseña segura
-        # IMPORTANTE: Confirma que esta ruta exista en tu Hostinger o el deploy fallará
-        server-dir: ./dominioprueba/wp-content/themes/child-theme/
+        server: 195.35.33.109  # La IP sigue sirviendo (o puedes usar ftp.floralwhite...)
+        
+        # 1. CAMBIO: Tu nuevo usuario específico
+        username: u947001429.gaboprueba
+        
+        password: ${{ secrets.FTP_PASSWORD }}
+        
+        # 2. CAMBIO DE RUTA (Importante):
+        # Al crear el usuario asignado a "public_html", esa es su raíz.
+        # Por tanto, quitamos "/public_html/" del inicio.
+        server-dir: ./wp-content/themes/nombre-de-tu-child-theme/
